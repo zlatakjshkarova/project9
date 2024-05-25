@@ -1,0 +1,182 @@
+@media(max-width:1198px) {
+
+    .Garden {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .text_garden {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 87px;
+    }
+
+
+
+
+    .discover_desc {
+        display: block;
+        justify-content: flex-end;
+    }
+
+
+}
+
+@media(max-width:1198px) {
+    .discover_content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .wrap-img2 {}
+
+    .imgg {}
+
+    .discover_desc {
+
+        display: block;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .discover_text {}
+
+    .text_discover {}
+
+    .wrap-btn {}
+
+    .btnk {}
+
+
+    .wrap-chair {
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chair {}
+}
+
+
+@media(max-width:1198px) {
+
+    .burger {
+        display: flex;
+        transition: transform 0.3s;
+    }
+
+
+
+    .nav_desktop {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        transition: width 0.3s;
+
+    }
+
+    .nav_desktop.active {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 320px;
+        height: auto;
+        background: #eef8ed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        row-gap: 40px;
+
+    }
+
+    .li_desktop {
+        font-family: 'Arial';
+        font-weight: 400;
+        font-size: 32px;
+        color: #333d3c;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1191px) {
+    .content_default {
+        margin-top: 100px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .content_blok {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 22px;
+    }
+
+    .list_post {
+        display: flex;
+
+        align-items: center;
+        column-gap: 40px;
+        list-style: none;
+        text-decoration: none;
+        margin: 0 auto;
+
+        max-width: 700px;
+
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+    .Exoticimg {
+        display: block;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+    }
+
+}
